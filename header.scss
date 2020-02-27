@@ -1,0 +1,22 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  background-color: hsl(201, 45%, 21%);
+  color: white;
+
+  &__title {
+    line-height: 2;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  &__button {
+    min-width: 2em;
+    line-height: 0;
+  }
+}
